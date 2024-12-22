@@ -9,6 +9,70 @@
 - **模型可视化**：生成并保存模型的结构图，帮助理解模型架构。
 - **图形用户界面（GUI）**：提供一个直观的界面，允许用户绘制手写数字并实时预测其类别。
 
+## 模型结构
+`````````
+ImprovedResNet18
+│
+├── Input Layer (1x28x28)
+│
+├── Initial Layers
+│   ├── Conv2d (1→32, 3x3)
+│   ├── BatchNorm2d
+│   ├── ReLU
+│   └── MaxPool2d (2x2)
+│
+├── Layer1 (2 Residual Blocks)
+│   ├── ResidualBlock1
+│   │   ├── Conv2d (32→32, 3x3)
+│   │   ├── BatchNorm2d
+│   │   ├── ReLU
+│   │   ├── Conv2d (32→32, 3x3)
+│   │   └── BatchNorm2d
+│   │
+│   └── ResidualBlock2
+│       ├── Conv2d (32→32, 3x3)
+│       ├── BatchNorm2d
+│       ├── ReLU
+│       ├── Conv2d (32→32, 3x3)
+│       └── BatchNorm2d
+│
+├── Layer2 (2 Residual Blocks)
+│   ├── ResidualBlock1 (with downsample)
+│   │   ├── Conv2d (32→64, 3x3, stride=2)
+│   │   ├── BatchNorm2d
+│   │   ├── ReLU
+│   │   ├── Conv2d (64→64, 3x3)
+│   │   └── BatchNorm2d
+│   │
+│   └── ResidualBlock2
+│       ├── Conv2d (64→64, 3x3)
+│       ├── BatchNorm2d
+│       ├── ReLU
+│       ├── Conv2d (64→64, 3x3)
+│       └── BatchNorm2d
+│
+├── Layer3 (2 Residual Blocks)
+│   ├── ResidualBlock1 (with downsample)
+│   │   ├── Conv2d (64→128, 3x3, stride=2)
+│   │   ├── BatchNorm2d
+│   │   ├── ReLU
+│   │   ├── Conv2d (128→128, 3x3)
+│   │   └── BatchNorm2d
+│   │
+│   └── ResidualBlock2
+│       ├── Conv2d (128→128, 3x3)
+│       ├── BatchNorm2d
+│       ├── ReLU
+│       ├── Conv2d (128→128, 3x3)
+│       └── BatchNorm2d
+│
+├── Global Average Pooling
+│
+├── Dropout (p=0.5)
+│
+└── Fully Connected Layer (128→10)
+`````````
+
 ## 如何运行
 安装依赖包（如果事先以配置好环境，请忽略这一步）
 `````````
