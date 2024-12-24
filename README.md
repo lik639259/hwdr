@@ -98,9 +98,9 @@ python app.py
 
 ## 效果演示
 ![image](image/3.png)
-![image](/blob/master/image/4.png)
-![image](./blob/master/image/6.png)
-![image](https://github.com/lik639259/hwdr/blob/master/image/9.png)
+![image](image/4.png)
+![image](image/6.png)
+![image](image/9.png)
 
 
 
