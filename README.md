@@ -98,10 +98,10 @@ python app.py
 
 ## 效果演示
 ```````````
-[image](https://bgithub.xyz/lik639259/hwdr/blob/master/image/3.png)
-[image](https://bgithub.xyz/lik639259/hwdr/blob/master/image/4.png)
-[image](https://bgithub.xyz/lik639259/hwdr/blob/master/image/6.png)
-[image](https://bgithub.xyz/lik639259/hwdr/blob/master/image/9.png)
+![image](https://github.com/lik639259/hwdr/blob/master/image/3.png)
+![image](https://github.com/lik639259/hwdr/blob/master/image/4.png)
+![image](https://github.com/lik639259/hwdr/blob/master/image/6.png)
+![image](https://github.com/lik639259/hwdr/blob/master/image/9.png)
 ```````````
 
 
