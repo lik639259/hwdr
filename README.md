@@ -97,12 +97,11 @@ python app.py
 使用MNIST数据集，包含60000张手写数字图片（采用灰度表示），其中80%用于训练集。20%用于验证集，可以下载[数据集](https://pan.baidu.com/s/1jAP1myo4ItWvo7av5t7OLQ)(提取码xdz8)使用
 
 ## 效果演示
-```````````
 ![image](image/3.png)
-![image](https://github.com/lik639259/hwdr/blob/master/image/4.png)
-![image](https://github.com/lik639259/hwdr/blob/master/image/6.png)
+![image](/blob/master/image/4.png)
+![image](./blob/master/image/6.png)
 ![image](https://github.com/lik639259/hwdr/blob/master/image/9.png)
-```````````
+
 
 
 
