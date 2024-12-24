@@ -12,9 +12,8 @@
 ## 模型性能
 ![model](image/model.png)
 相较于传统的手写数字识别模型，该模型在测试集上的准确率达到99.81，损失低于0.0070，性能大大提高。
-___[
+
 ![confusionMatrix](https://github.com/lik639259/hwdr/blob/master/image/confusionMatrix.png)
-___
 
 ## 模型结构
 `````````
@@ -106,7 +105,7 @@ python app.py
 ## 效果演示
 ![3](image/3.png)
 
-![4](https://github.com/lik639259/hwdr/blob/master/image/4.png)
+![4](https://github.com/lik639259/hwdr/blob/master/image/6.png)
 
 
 
