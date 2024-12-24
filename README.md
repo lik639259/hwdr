@@ -12,8 +12,9 @@
 ## 模型性能
 ![model](image/model.png)
 相较于传统的手写数字识别模型，该模型在测试集上的准确率达到99.81，损失低于0.0070，性能大大提高。
-
+___
 ![confusionMatrix](image/confusionMatrix.png)
+___
 
 ## 模型结构
 `````````
@@ -103,13 +104,12 @@ python app.py
 使用MNIST数据集，包含60000张手写数字图片（采用灰度表示），其中80%用于训练集。20%用于验证集，可以下载[数据集](https://pan.baidu.com/s/1jAP1myo4ItWvo7av5t7OLQ)(提取码xdz8)使用
 
 ## 效果演示
-
 ![3](image/3.png)
-
+___
 ![4](image/4.png)
-
+___
 ![6](image/6.png)
-
+___
 ![9](image/9.png)
 
 
